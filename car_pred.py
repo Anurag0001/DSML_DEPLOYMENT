@@ -47,6 +47,15 @@ def model_pred(encoded_fuel_type,encoded_transmission_type, engine, seats):
 
         return loaded_model.predict(input_features)
     
+    try:
+        with open("model.pkl", "rb") as file:
+            loaded_model = pickle.load(file)
+    except FileNotFoundError:
+        print("Model file not found.")
+    except pickle.UnpicklingError:
+        print("Error loading model.")
+
+    
 
 if st.button("Predict Price"):
     encoded_fuel_type = encode_dict['fuel_type'][fuel_type]
