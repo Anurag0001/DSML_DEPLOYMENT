@@ -69,6 +69,6 @@ if st.button("Predict Price"):
 
 #series of columns within with my model will accept input
 #[2012.0,Individual,120000,Petrol,Manual,19.7,796.0,46.3,5.0]
-
+#G
 #encoded_accepted_format
 #[2012.0,2,120000,encoded_fuel_type,encoded_transmission_type,19.7,engine,46.3,seats]
