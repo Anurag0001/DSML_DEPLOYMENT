@@ -2,7 +2,7 @@ import streamlit as st
 import numpy as np
 import pandas as pd
 import pickle
-import sklearn
+
 
 cars_df=pd.read_csv("C:\SANU\SCALER_DATA_SCIENCE\course\ML OPS\DSML_DEPLOYMENT\cars24-car-price-cleaned.csv")
 
