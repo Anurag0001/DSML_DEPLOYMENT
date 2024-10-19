@@ -4,7 +4,7 @@ import pandas as pd
 import pickle
 
 
-cars_df=pd.read_csv("C:\SANU\SCALER_DATA_SCIENCE\course\ML OPS\DSML_DEPLOYMENT\cars24-car-price-cleaned.csv")
+cars_df=pd.read_csv("./cars24-car-price-cleaned.csv")
 
 
 st.write(""""
